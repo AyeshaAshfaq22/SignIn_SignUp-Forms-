@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            color: white;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            background-color: black;
+        }
+
+        header {
+            background-color: grey;
+            text-align: center; /* Center align header text */
+            position: relative;
+            display: flex;
+            flex-direction: column; 
+            align-items: center; /* Center align items horizontally */
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: white; /* Set text color to white */
+        }
+
+/* navigate unordered list */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 25px 0;
+        }
+
+        footer {
+            background-color: grey;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            border-radius: 4px;
+            background-color: grey;
+            border: none;
+            color: white;
+            text-align: center;
+            font-size: 10px;
+            padding: 12px;
+            width: 120px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Ayesha Ashfaq</h1><br>
+            <nav>
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+					<li><a href="#projects">Projects</a></li>
+					 <li><a href="#skills">Skills</a></li>
+                    
+                </ul>
+            </nav>
+        </div><br>
+        <div>
+            <a target="_blank" href="mailto:ayeshashfaq22@gmail.com"><i class="fas fa-envelope" style="font-size: 26px;"></i></a>
+            <a href="https://github.com/AyeshaAshfaq22/" target="_parent"><i class="fab fa-github" style="font-size: 26px;"></i></a>
+            <a href="https://pk.linkedin.com/" target="_parent"><i class="fab fa-linkedin" style="font-size: 26px;"></i></a>
+        </div><br>
+    </header>"
+
+
+
+    <section id="About Me" class="container">
+        <h2><u>About Me</u></h2>
+        <div>
+            <p>I'm Ayesha Ashfaq, a computer Scientist to be on a mission to use technology to improve people's lives.</p>
+			<P>As for my career goals, I'm excited to explore the intersection of technology and automation, and to use my skills to streamline and eliminate repetitive tasks. I'm always up for a new challenge, so bring it on!.</p>
+        </div>
+    </section>
+
+    
+
+    <section id="education" class="container">
+        <h2><u>Education</u></h2>
+        <div><br>
+		<h3>FAST NUCES </h3>
+            <p>BS Computer Science at National University Of Computer Science & Technology </p>
+           
+        </div>
+    </section>
+
+
+
+    <section id="projects" class="container">
+        <h2><u>My Projects</u></h2>
+        <div>
+		
+
+            <p><b>Project1:</b> DodgeEm game </p>
+            <p>DodgeEm is an exciting arcade-style game where players control a character trying to dodge obstacles while navigating through a dynamic environment. The game provides an immersive experience with responsive controls, challenging levels, and captivating graphics. DodgeEm aims to entertain players and test their reflexes as they strive to achieve high scores and conquer increasingly difficult levels.</p>
+          <a href="https://github.com/AyeshaAshfaq22/DodgeEm" target="_blank" class="button"><span>Show Details</span></a><br><br>
+           
+
+		   <p><b>Project2:</b>Transport System</p>
+            <p>The Transport Management System is a software application designed to streamline and automate various aspects of managing transportation operations. It provides functionalities for tracking vehicles, managing routes, scheduling trips, handling reservations, and generating reports. The system aims to improve efficiency, reduce costs, and enhance overall operational control for transportation companies or organizations.</p> 
+			<a href="https://github.com/AyeshaAshfaq22/Transport-System" target="_blank" class="button"><span>Show Details</span></a><br>
+			
+			       
+
+		     <p><b>Project3:</b>Dictionary</p>
+            <p>The Dictionary project is a comprehensive digital tool designed to provide users with word definitions, synonyms, antonyms, and translations in multiple languages. It offers a user-friendly interface and robust functionality to facilitate quick and efficient word lookup. Whether users need to expand their vocabulary, find alternative words, or translate text, this Dictionary project serves as a reliable resource for all language-related queries.</p>
+            <a href="https://github.com/AyeshaAshfaq22/Dictionary" target="_blank" class="button"><span>Show Details</span></a><br>
+		 </div>
+          </section>
+
+
+
+
+    <section id="skills" class="container">
+        <h2><u>Skills</u></h2>
+        <div>
+            <p>1: Problem-solving</p>
+            <p>2: Management skills</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <div>
+            <p>ContactMeAt ayeshashfaq22@gmail.com</p>
+            <p>© Ayesha Ashfaq , 2024</p>
+        </div>
+    </footer>
+	
+	
+</body>
+</html>
