@@ -18,13 +18,6 @@ This HTML document presents a concise sign-in and sign-up form interface for a w
    https://github.com/AyeshaAshfaq22/Portfolio.git
 
 
-  
-2. Database setup
-
-.Ensure you have a compatible database system installed
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
