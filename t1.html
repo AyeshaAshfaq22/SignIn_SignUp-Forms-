@@ -91,7 +91,63 @@
         <button type="submit">Sign Up</button>
       </form>
   </div>
+<script>
+    document.getElementById("signin-btn").addEventListener("click", function() {
+      document.getElementById("forms-container").style.display = "flex";
+      document.getElementById("signin-form").style.display = "block";
+      document.getElementById("signup-form").style.display = "none";
+    });
 
+    document.getElementById("signup-btn").addEventListener("click", function() {
+      document.getElementById("forms-container").style.display = "flex";
+      document.getElementById("signup-form").style.display = "block";
+      document.getElementById("signin-form").style.display = "none";
+    });
+
+    document.getElementById("signin-form").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const username = document.getElementById("signin-username").value.trim();
+      const password = document.getElementById("signin-password").value.trim();
+
+      // Validate SignIn Form
+      if (username === "" || password === "") {
+        alert("Please fill in all fields.");
+        return;
+      }
+
+      
+    });
+
+    document.getElementById("signup-form").addEventListener("submit", function(event) {
+      event.preventDefault();
+      const firstName = document.getElementById("signup-firstname").value.trim();
+      const lastName = document.getElementById("signup-lastname").value.trim();
+      const email = document.getElementById("signup-email").value.trim();
+      const password = document.getElementById("signup-password").value.trim();
+      const confirmPassword = document.getElementById("signup-confirm-password").value.trim();
+      const phone = document.getElementById("signup-phone").value.trim();
+      const birthdate = document.getElementById("signup-birthdate").value.trim();
+      const age = document.getElementById("signup-age").value.trim();
+
+      // Validate SignUp Form
+      if (firstName === "" || lastName === "" || email === "" || password === "" || confirmPassword === "" || phone === "" || birthdate === "" || age === "") {
+        alert("Please fill in all fields.");
+        return;
+      }
+
+      if (password !== confirmPassword) {
+        alert("Passwords do not match.");
+        return;
+      }
+
+      if (isNaN(age) || age < 18 || age > 120) {
+        alert("Invalid age. Age must be a number between 18 and 100.");
+        return;
+      }
+
+      
+    });
+  </script>
   
 </body>
 </html>
