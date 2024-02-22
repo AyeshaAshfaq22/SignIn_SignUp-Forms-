@@ -11,7 +11,6 @@ This HTML document presents a concise sign-in and sign-up form interface for a w
 
 * <img src="https://img.shields.io/badge/HTMl5-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## SIGNIN/SIGNUP Forms| Setup Instructions 
 
 * <img src="https://img.shields.io/badge/CSS-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
