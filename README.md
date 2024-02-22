@@ -18,7 +18,7 @@ This HTML document presents a concise sign-in and sign-up form interface for a w
 ## SIGNIN/SIGNUP Forms| Setup Instructions 
 1. Clone This Repository
    ```sh
-   https://github.com/AyeshaAshfaq22/Portfolio.git
+   https://github.com/AyeshaAshfaq22/SignIn_SignUp-Forms-.git
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
